@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="  ">
+    <script rc="jquery.js"></script>
+    <scipt>
+
+
+    </scipt>
+    <style>
+        .site {
+            width: 1000px;
+            height: 500px;
+            background-color: red;
+        }
+
+        .header {
+            width: inherit;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .main {
+            width: inherit;
+            height: 350px;
+            background-color: yellow;
+        }
+
+        .footer {
+            width: inherit;
+            height: 50px;
+            background-color: green;
+        }
+
+        .esquerda {
+            width: 200PX;
+            height: INHERIT;
+            background-color: PINK;
+            display: inline-block;
+            float: right;
+        }
+
+        .centro {
+            width: 600PX;
+            height: inherit;
+            background-color: grey;
+            display: inline-block;
+            float: right;
+        }
+
+        .direit {
+            width: 200px;
+            height: inherit;
+            background-color: red;
+            display: inline-block;
+            float: right;
+        }
+
+        .direita1 {
+            width: inherit;
+            height: 33%;
+            background-color: red;
+
+        }
+
+        .direita2 {
+            width: inherit;
+            height: 33%;
+            background-color: black;
+
+        }
+
+        .direita3 {
+            width: inherit;
+            height: 33%;
+            background-color: blue;
+
+        }
+    </style>
+</head>
+<bory>
+    <div class="site">
+        <div class="header">
+
+        </div>
+
+        <div class="main">
+            <div class="esquerda">
+
+            </div>
+            <div class="centro">
+
+            </div>
+            <div class="direita">
+                <div class="direita1">
+
+                </div>
+                <div class="direita2">
+
+                </div>
+                <div class="direita3">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+        </div>
+    </div>
+</bory>
+
+</html>
