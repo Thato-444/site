@@ -1,42 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Postar Story</title>
-    <style>
-        #preview {
-            margin-top: 20px;
-            max-width: 100%;
-            max-height: 300px;
-        }
-    </style>
-</head>
-<body>
+<html lang="PT-BR"
+    <head>
+       <title></title>
+       <link rel="stylesheet" type="text/css" href="">
+       <script src="jquery.js"></script>
+       <script>
+         
+       </script>
+       <style>
+         .site{
+            width:1000px;
+            height:700px;
+            background-color:red;
 
-    <form action="/upload" id="form1" method="post" enctype="multipart/form-data">
-        <input type="file" id="fileInput" name="fileUploaded" accept="image/*" onchange="previewImage(event)" />
-        <input type="submit" value="Enviar arquivo" />
-    </form>
+         }
+         .um{
+            width:inherit;
+            height:30px;
+            background-color:rgba(243, 239, 239, 0.204);
 
-    <img id="preview" src="" alt="Pré-visualização da imagem" hidden />
+         }
+         .dois{
+            width:;
+            height:;
+            background-color:;
 
-    <script>
-        function previewImage(event) {
-            const file = event.target.files[0];
-            const reader = new FileReader();
+         }
+         .tres{
+            width:;
+            height:;
+            background-color:;
 
-            reader.onload = function(e) {
-                const img = document.getElementById('preview');
-                img.src = e.target.result;
-                img.hidden = false; // Mostra a imagem
-            }
+         }
+         .quatro{
+            width:;
+            height:;
+            background-color:;
 
-            if (file) {
-                reader.readAsDataURL(file); // Lê o arquivo como URL de dados
-            }
-        }
-    </script>
+         }
+         .cinco{
+            width:;
+            height:;
+            background-color:;
 
-</body>
-</html>
+         }
+         .seis{
+            width:;
+            height:;
+            background-color:;
+
+         }
+         .sete{
+            width:;
+            height:;
+            background-color:;
+
+         }
+      
+
+         </style>
+    </head>
+    <body>
+      <div class="site">
+         <div class="um"></divi>
+            <div class="dois"></divi>
+
+               <div class="tres"></divi>
+
+                  <div class="quatro"></divi>
+
+                     <div class="cinco"></divi>
+
+                        <div class="seis"></divi>
+
+                           <div class="sete"></divi>
+
+      </div>
+
+    </body>    
