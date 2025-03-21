@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postar Story</title>
+    <style>
+        #preview {
+            margin-top: 20px;
+            max-width: 100%;
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="/upload" id="form1" method="post" enctype="multipart/form-data">
+        <input type="file" id="fileInput" name="fileUploaded" accept="image/*" onchange="previewImage(event)" />
+        <input type="submit" value="Enviar arquivo" />
+    </form>
+
+    <img id="preview" src="" alt="Pré-visualização da imagem" hidden />
+
+    <script>
+        function previewImage(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                const img = document.getElementById('preview');
+                img.src = e.target.result;
+                img.hidden = false; // Mostra a imagem
+            }
+
+            if (file) {
+                reader.readAsDataURL(file); // Lê o arquivo como URL de dados
+            }
+        }
+    </script>
+
+</body>
+</html>
