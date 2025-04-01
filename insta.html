@@ -1,361 +1,386 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-    <head>
-       <title></title>
-       <link rel="stylesheet" type="text/css" href="">
-       <script src="jquery.js"></script>
-       <script>
-         
-       </script>
-       <style>
-         .site{
-            width:1000px;
-            height:700px;
-            background-color:red;
 
-         }
-         .um{
-            width:inherit;
-            height:30px;
-            background-color:rgba(19, 231, 29, 0.903);
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="">
+    <script src="jquery.js"></script>
+    <script>
 
-         }
-         .dois{
-            width:inherit;
-            height:100px;
-            background-color:rgb(58, 27, 235);
+    </script>
+    <style>
+        .site {
+            width: 1000px;
+            height: 700px;
+            background-color: red;
+            margin-left: 250px;
 
-         }
-         .tres{
-            width:inherit;
-            height:30px;
-            background-color:rgb(192, 203, 31);
+        }
 
-         }
-         .quatro{
-            width:inherit;
-            height:450px;
-            background-image:url("https://tm.ibxk.com.br/2025/03/24/24133356890294.jpg");
-            background-size:100%;
+        .um {
+            width: inherit;
+            height: 30px;
+            background-color: rgba(19, 231, 29, 0.903);
 
-         }
-         .cinco{
-            width:inherit;
-            height:30px;
-            background-color:rgb(172, 223, 19);
+        }
 
-         }
-         .seis{
-            width:inherit;
-            height:30px;
-            background-color:rgb(30, 153, 229);
+        .dois {
+            width: inherit;
+            height: 100px;
+            background-color: rgb(58, 27, 235);
 
-         }
-         .sete{
-            width:inherit;
-            height:30px;
-            background-color:red;
+        }
 
-         }
+        .tres {
+            width: inherit;
+            height: 30px;
+            background-color: rgb(192, 203, 31);
 
-            .um1{
-                width:20%;
-                height:inherit;
-                background-color:rgba(38, 20, 234, 0.357);
-                display:inline-block;
-                float:left;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        }
 
-            }
-            .um2{
-                width:5%;
-                height:inherit;
-                background-color:rgba(87, 179, 100, 0.558);
-                display:inline-block;
-                float:right;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
-            }
-            .um3{
-                width: 5%;
-                height:inherit;
-                background-color:rgba(169, 8, 118, 0.558);
-                display:inline-block;
-                float:right;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
-            }
-            .dois1{
+        .quatro {
+            width: inherit;
+            height: 450px;
+            background-image: url("https://tm.ibxk.com.br/2025/03/24/24133356890294.jpg");
+            background-size: 100%;
 
-                width:10%;
-                height:inherit;
-                background-image:url("https://static.wikia.nocookie.net/viloes/images/f/f7/Joker_0091.webp/revision/latest?cb=20220524223753&path-prefix=pt-br");
-                background-size:90%;
-                display:inline-block;
-                float:left;
-                border-radius:100%;
-                margin-left: 40px;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
-            }
-            .dois2{
-                width:10%;
-                height:inherit;
-                background-image:url("https://www.minimundi.com.br/cdn/imagens/produtos/det/miniatura-carro-nissan-skyline-gt-r-r34velozes-e-furiosos-5-1-24-jada-toys-97158_a.jpeg");
-                background-size:100%;
-                display:inline-block;
-                float:left;
-                border-radius:100%;
-                margin-left: 40px;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        }
 
-            }
-            .dois3{
-                width:10%;
-                height:inherit;
-                background-image:url("https://carrosbemmontados.com.br/wp-content/uploads/2023/12/Nissan-GTR-1.jpeg.webp");
-                background-size:150%;
-                display:inline-block;
-                float:left;
-                border-radius:100%;
-                margin-left: 40px;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        .cinco {
+            width: inherit;
+            height: 30px;
+            background-color: rgb(172, 223, 19);
 
-            }
-            .dois4{
-                width:10%;
-                height:inherit;
-                background-image:url("https://i.pinimg.com/originals/e9/85/8e/e9858eb9d75f48d2c7d178d157871928.jpg");
-                background-size:100%;
-                display:inline-block;
-                float:left;
-                border-radius:100%;
-                margin-left: 40px;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
-            }
-            .dois5{
-                width:10%;
-                height:inherit;
-                background-image:url("https://startse-uploader.s3.us-east-2.amazonaws.com/medium_Texto_do_seu_paragrafo_3_5d9584fd88.jpg");
-                background-size:150%;
-                display:inline-block;
-                float:left;
-                border-radius:100%;
-                margin-left: 40px;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
-            }
-            .tres1{
-                width:30px;
-                height:inherit;
-                background-image:url("https://agorarn.com.br/files/uploads/2022/12/20221205_foto_GETTY_neymar_jr_jogo_brasil_x_coreia_copa_do_mundo__209_.jpg");
-                background-size:140%;
-                display:inline-block;
-                float:left;
-                border-radius:100%;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
-            }
-            .tres2{
-                width:20%;
-                height:inherit;
-                background-color:rgb(240, 67, 10);
-                display:inline-block;
-                float:left;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
-            }
-            .tres3{
-                width:2%;
-                height:inherit;
-                background-color:rgba(84, 5, 254, 0.963);
-                display:inline-block;
-                float:right;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
-            }
-            .cinco1{
-                width:5%;
-                height:inherit;
-                background-color:rgba(9, 193, 244, 0.962);
-                display:inline-block;
-                float:left;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        }
 
-            }
-            .cinco2{
-                width:5%;
-                height:inherit;
-                background-color:rgba(91, 227, 12, 0.925);
-                display:inline-block;
-                float:left;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        .seis {
+            width: inherit;
+            height: 30px;
+            background-color: rgb(30, 153, 229);
 
-            }
-            .cinco3{
-                width:5%;
-                height:inherit;
-                background-color:rgba(237, 16, 185, 0.937);
-                display:inline-block;
-                float:left;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
-            }
-            .cinco4{
-                width:5%;
-                height:inherit;
-                background-color:rgba(149, 15, 245, 0.888);
-                display:inline-block;
-                float:right;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        }
 
-            }
-            
-            .sete1{
-                width:20%;
-                height:inherit;
-                background-color:rgba(5, 30, 43, 0.558);
-                display:inline-block;
-                float:right; 
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        .sete {
+            width: inherit;
+            height: 30px;
+            background-color: red;
 
-            }
-            .sete2{
-                width:20%;
-                height:inherit;
-                background-color:rgba(230, 8, 71, 0.558);
-                display:inline-block;
-                float:right;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        }
 
-            }
-            .sete3{
-                width:20%;
-                height:inherit;
-                background-color:rgba(12, 56, 249, 0.263);
-                display:inline-block;
-                float:right;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        .um1 {
+            width: 20%;
+            height: inherit;
+            background-color: rgba(38, 20, 234, 0.357);
+            display: inline-block;
+            float: left;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
 
-            }
-            .sete4{
-                width:20%;
-                height:inherit;
-                background-color:rgba(231, 234, 12, 0.895);
-                display:inline-block;
-                float:right;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        }
 
-            }
-            .sete5{
-                width:20%;
-                height:inherit;
-                background-color:rgba(233, 5, 5, 0.927);
-                display:inline-block;
-                float:right;
-                color:black;
-                font-size:13px;
-                font-family:arial;
-                font-weight:bold;
+        .um2 {
+            width: 5%;
+            height: inherit;
+            background-color: rgba(87, 179, 100, 0.558);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+        }
 
-            }
+        .um3 {
+            width: 5%;
+            height: inherit;
+            background-color: rgba(169, 8, 118, 0.558);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+        }
 
-      
+        .dois1 {
 
-         </style>
-    </head>
-    <body>
-      <div class="site">
-         <div class="um">
-                     <div class="um1"> INSTAGRAM</div>
-                     <div class="um2">&#8855;	</div>
-                     <div class="um3">&#9829;	</div>
+            width: 10%;
+            height: inherit;
+            background-image: url("https://static.wikia.nocookie.net/viloes/images/f/f7/Joker_0091.webp/revision/latest?cb=20220524223753&path-prefix=pt-br");
+            background-size: 90%;
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            margin-left: 40px;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+        }
 
-         </div>
-            <div class="dois">
-                            <div class="dois1"></div>
-                            <div class="dois2"></div>
-                            <div class="dois3"></div>
-                            <div class="dois4"></div>
-                            <div class="dois5"></div>
-            </div>
+        .dois2 {
+            width: 10%;
+            height: inherit;
+            background-image: url("https://www.minimundi.com.br/cdn/imagens/produtos/det/miniatura-carro-nissan-skyline-gt-r-r34velozes-e-furiosos-5-1-24-jada-toys-97158_a.jpeg");
+            background-size: 100%;
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            margin-left: 40px;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
 
-               <div class="tres">
-                    <div class="tres1"></div>
-                    <div class="tres2"></div>
-                    <div class="tres3"></div>
-               </div>
+        }
 
-                  <div class="quatro"></div>
+        .dois3 {
+            width: 10%;
+            height: inherit;
+            background-image: url("https://carrosbemmontados.com.br/wp-content/uploads/2023/12/Nissan-GTR-1.jpeg.webp");
+            background-size: 150%;
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            margin-left: 40px;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
 
-                     <div class="cinco">
-                            <div class="cinco1"></div>
-                            <div class="cinco2"></div>
-                            <div class="cinco3"></div>
-                            <div class="cinco4"></div>
-                     </div>
+        }
 
-                        <div class="seis">
+        .dois4 {
+            width: 10%;
+            height: inherit;
+            background-image: url("https://i.pinimg.com/originals/e9/85/8e/e9858eb9d75f48d2c7d178d157871928.jpg");
+            background-size: 100%;
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            margin-left: 40px;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+        }
 
-                        </div>
+        .dois5 {
+            width: 10%;
+            height: inherit;
+            background-image: url("https://startse-uploader.s3.us-east-2.amazonaws.com/medium_Texto_do_seu_paragrafo_3_5d9584fd88.jpg");
+            background-size: 150%;
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            margin-left: 40px;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+        }
 
-                            <div class="sete">
-                                <div class="sete1"></div>
-                                <div class="sete2"></div>
-                                <div class="sete3"></div>
-                                <div class="sete4"></div>
-                                <div class="sete5"></div>
-                           </div>
+        .tres1 {
+            width: 30px;
+            height: inherit;
+            background-image: url("https://agorarn.com.br/files/uploads/2022/12/20221205_foto_GETTY_neymar_jr_jogo_brasil_x_coreia_copa_do_mundo__209_.jpg");
+            background-size: 140%;
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+        }
 
-      </div>
+        .tres2 {
+            width: 20%;
+            height: inherit;
+            background-color: rgb(240, 67, 10);
+            display: inline-block;
+            float: left;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+        }
 
-    </body>    
+        .tres3 {
+            width: 2%;
+            height: inherit;
+            background-color: rgba(84, 5, 254, 0.963);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+        }
+
+        .cinco1 {
+            width: 5%;
+            height: inherit;
+            background-color: rgba(9, 193, 244, 0.962);
+            display: inline-block;
+            float: left;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+
+        }
+
+        .cinco2 {
+            width: 5%;
+            height: inherit;
+            background-color: rgba(91, 227, 12, 0.925);
+            display: inline-block;
+            float: left;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+
+        }
+
+        .cinco3 {
+            width: 5%;
+            height: inherit;
+            background-color: rgba(237, 16, 185, 0.937);
+            display: inline-block;
+            float: left;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+        }
+
+        .cinco4 {
+            width: 5%;
+            height: inherit;
+            background-color: rgba(149, 15, 245, 0.888);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+
+        }
+
+        .sete1 {
+            width: 20%;
+            height: inherit;
+            background-color: rgba(5, 30, 43, 0.558);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+
+        }
+
+        .sete2 {
+            width: 20%;
+            height: inherit;
+            background-color: rgba(230, 8, 71, 0.558);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+
+        }
+
+        .sete3 {
+            width: 20%;
+            height: inherit;
+            background-color: rgba(12, 56, 249, 0.263);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+
+        }
+
+        .sete4 {
+            width: 20%;
+            height: inherit;
+            background-color: rgba(231, 234, 12, 0.895);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+
+        }
+
+        .sete5 {
+            width: 20%;
+            height: inherit;
+            background-color: rgba(233, 5, 5, 0.927);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13px;
+            font-family: arial;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="site">
+        <div class="um">
+            <div class="um1"> INSTAGRAM</div>
+            <div class="um2">&#8855; </div>
+            <div class="um3">&#9829; </div>
+
+        </div>
+        <div class="dois">
+            <div class="dois1"></div>
+            <div class="dois2"></div>
+            <div class="dois3"></div>
+            <div class="dois4"></div>
+            <div class="dois5"></div>
+        </div>
+
+        <div class="tres">
+            <div class="tres1"></div>
+            <div class="tres2"></div>
+            <div class="tres3"></div>
+        </div>
+
+        <div class="quatro"></div>
+
+        <div class="cinco">
+            <div class="cinco1">&#9825; </div>
+            <div class="cinco2"></div>
+            <div class="cinco3">&#8855;</div>
+            <div class="cinco4">&#8719;</div>
+        </div>
+
+        <div class="seis">
+
+        </div>
+
+        <div class="sete">
+            <div class="sete1"></div>
+            <div class="sete2"></div>
+            <div class="sete3"></div>
+            <div class="sete4"></div>
+            <div class="sete5"></div>
+        </div>
+
+    </div>
+
+</body>
